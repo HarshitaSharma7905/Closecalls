@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ContactActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:background="@color/btn_color">
+        <TextView
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+            android:textAlignment="center"
+            android:drawableRight="@drawable/ic_baseline_cancel_24"
+            android:drawablePadding="5dp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/box_outerline">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_baseline_account_box_24"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Enter your Email"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Mobile Number"
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:drawablePadding="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:layout_margin="5dp"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Query"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_baseline_message_24"
+            android:ems="5"
+            android:maxLines="10"
+            android:drawablePadding="10dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Submit"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    tools:context=".AccountFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        android:background="@drawable/box_outerline">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Krishna Mohan Sharma"
+            android:textSize="16sp"
+            android:drawableLeft="@drawable/ic_baseline_account_box_24"
+            android:drawablePadding="10dp"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/gmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:text="text@gmail.com"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone no."
+            android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+            android:drawablePadding="10dp"
+            android:textSize="16sp"
+            android:textColor="@color/text_color"
+            android:layout_margin="5dp"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pune, Maharashtra"
+            android:textSize="16sp"
+            android:layout_margin="5dp"
+            android:drawableLeft="@drawable/ic_baseline_location_city_24"
+            android:drawablePadding="10dp"
+            android:textColor="@color/text_color"
+            android:background="@drawable/input"
+            android:padding="10dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/btnHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/box_outerline"
+        android:layout_margin="5dp"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_history_24"
+        android:text="Transaction History"
+        android:textSize="16sp"
+       android:textColor="@color/text_color"/>
+    <TextView
+        android:id="@+id/btnTerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/box_outerline"
+        android:layout_margin="5dp"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_indeterminate_check_box_24"
+        android:text="Term &amp; Condition"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"/>
+    <TextView
+        android:id="@+id/btnPrivacy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/box_outerline"
+        android:layout_margin="5dp"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_privacy_tip_24"
+        android:text="Privacy Policy"
+
+        android:textSize="16sp"
+        android:textColor="@color/text_color"/>
+    <TextView
+        android:id="@+id/btnWithdrawal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/box_outerline"
+        android:layout_margin="5dp"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_published_with_changes_24"
+        android:text="Withdrawal &amp; Refund Policy"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"/>
+    <TextView
+        android:id="@+id/btnContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/box_outerline"
+        android:layout_margin="5dp"
+        android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
+        android:text="Contact Us"
+        android:textSize="16sp"
+        android:textColor="@color/text_color"/>
+
+
+
+</LinearLayout>

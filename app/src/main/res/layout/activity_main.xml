@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="330dp"
+       android:gravity="center">
+       <VideoView
+           android:id="@+id/videoView"
+           android:layout_width="match_parent"
+           android:layout_marginHorizontal="25dp"
+           android:layout_marginTop="63dp"
+           android:layout_height="220dp" />
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="330dp"
+           android:src="@drawable/videoframw14000"
+           android:scaleType="fitXY"/>
+
+
+   </RelativeLayout>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_color"
+        android:padding="10dp"
+        android:text="Login"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_color"
+        android:padding="10dp"
+        android:text="Register"/>
+
+
+
+</LinearLayout>

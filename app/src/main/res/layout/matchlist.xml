@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bg"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/series"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_bg"
+        android:padding="3dp"
+        android:text="Series"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/match_id"
+        android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:text="id"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:gravity="center"
+        android:text="Pune"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/matchStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIVE"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:weightSum="3">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/team_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSK"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_a"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="1dp"
+                android:src="@drawable/logo"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/verse"/>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/team_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CSK"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_b"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="1dp"
+                android:src="@drawable/logo"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/timeDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Starting Time"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/match_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T20"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/green"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/btnGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Enter Game"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:background="@color/game_btn_color"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Timer"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:padding="5dp"/>
+
+
+
+</LinearLayout>
